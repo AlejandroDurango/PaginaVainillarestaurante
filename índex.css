@@ -89,9 +89,9 @@ h1{
 }
 
 .mi-flecha{
-    width: 20vw;
+    width: 2vw;
     height: 2vh;
-    border:0.5vw solid;
+    border: 0.5vw solid;
     border-color: white transparent transparent white;
     transform: rotate(-135deg);
 }
