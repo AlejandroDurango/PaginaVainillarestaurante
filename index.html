@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Restaurante DLL WEB</title>
   <link rel="stylesheet" href="./índex.css">
+  
 
 </head>
 
@@ -131,19 +132,25 @@
         </center>
       </div>
       <div class="column">
-        <h2>Contacto</h2>
-        <form action="">
+        <h2>Registro</h2>
+        <form action="javascript:void(0)" onsubmit="obtenerValoresFormulario()">
           <input type="email" name="" placeholder="Ingrese su correo" id="txtCorreo">
           <br>
-          <input type="text" placeholder=="Ingrese su solicitud" id="txtAsunto">
+          <input type="text" placeholder="Ingrese su nombre" id="txtNombre">
           <br>
-          <textarea name="" placeholder="Ingrese una descripcion" id="txtDescripcion" cols="30" rows="10"></textarea>
+          <input type="text" placeholder="Ingrese su celular" id="txtCelular">
+          <br>
+          <input type="password" placeholder="Ingrese una contraseña" id="txtclave">
+          <br>
+          <textarea name="" placeholder="Ingrese su Dirección" id="txtDireccion"
+          cols="30" rows="10"></textarea>
           <br>
           <input type="submit" value="Enviar Datos">
         </form>
       </div>
     </div>
   </footer>
+  <script src="./index.js"></script>
 </body>
 
 </html>
